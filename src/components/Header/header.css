@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;500&display=swap');
+
+.logo {
+    border-bottom: 1px black solid;
+}
+
+.nav-strip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-strip h3 {
+    /* font-weight: 600; */
+    font-size: x-large;
+}
+
+.bars {
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+}
+
+.new-arrivals-container {
+    height:100px; 
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    /* border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
+}
+.new-arrivals-container img {
+    min-width: 100%;
+    height: 200%;
+    margin-top: -24px;
+}
+
+.new-arrivals-container div {
+    position: absolute;
+    height: auto;
+    min-height: 60px;
+    width: 60%;
+    bottom: 0;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--transparentGreen);
+    transition: .4s
+}
+
+.slogan-container {
+    padding: 30px 0px 30px 30px;
+    border-top: black 1px solid;
+    line-height: 25px;
+}
+.slogan-container h3 {
+    font-size: 22px;
+    transition: .4s;
+}
+.slogan-container p {
+    font-size: 12px;
+}
+.slogan-container #l1, .slogan-container #l3 {
+    color: var(--lightGreen);
+}
+.slogan-container #l2 {
+    color: var(--darkGreen);
+}
+
+.departments-page-intro {
+  margin-top: 20px;
+}
+
+  .ls-nav-container {
+    display: none;
+  }
+
+
+  .fa-sun, .fa-moon {
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    transition: .25s;
+    right: 20px;
+
+
+  }
+
+  .fa-sun {
+    color: rgb(214, 185, 97);
+    
+  }
+
+  .fa-moon {
+    color: rgb(119, 131, 255);
+  }
+
+
+  @media screen and (min-width: 768px) {
+
+    .logo-con {
+      width: 100%;
+      background-color: var(--headerBackgroundColor);
+      /* border-top-right-radius: 15px;
+      border-top-left-radius: 15px; */
+      transition: 0s;
+    }
+
+    .logo {
+      height: 330px;
+      width: auto;
+      margin: auto;
+      display: block;
+      border: none;
+      cursor: pointer;
+    }
+
+    .new-arrivals-container {
+        height: 25vw;
+        border-top: solid black 1px;
+    }
+
+    .new-arrivals-container div {
+      height: 30%;
+      width: 100%;
+    }
+
+    .new-arrivals-container h2 {
+      font-size: 35px;
+    }
+
+    .nav-strip h3 {
+      font-size: 35px;
+      display: none;
+    }
+
+    .bars {
+      display: none;
+    }
+
+    .ls-nav-container {
+      display: block;
+      margin: 0 auto 50px auto;
+    }
+    .ls-nav-container nav {
+      height: fit-content;
+      width: 100%;
+      border-top: solid black 1px;
+    }
+    .ls-nav-container ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      margin-right: none;
+    }
+    .ls-nav-container ul li {
+      line-height: 50px;
+    }
+
+
+    .new-arrivals-container {
+      width: 100%;
+      margin: auto;
+      display: block;
+      /* padding-bottom: ; */
+    }
+    .new-arrivals-container img {
+      margin-top: -5vw;
+      width: 100%;
+      /* height: auto; */
+
+    }
+
+    .slogan-container {
+      border: none;
+      width: 80%;
+      margin-bottom: 60px;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+
+    .departments-page-intro {
+      margin-top: 20px;
+      padding-right: 20%
+    }
+
+    .fa-sun:hover, .fa-moon:hover {
+      cursor: pointer;
+      opacity: 60%;
+    }
+    
+    .fa-sun, .fa-moon {
+      font-size: 30px;
+      position: absolute;
+      cursor: pointer;
+      top: -350px;
+      transition: .25s;
+      z-index: 999999;
+      
+
+    }
+
+
+    
+
+
+}

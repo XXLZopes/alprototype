@@ -1,0 +1,73 @@
+footer .footer-top {
+    background-color: var(--lightGreen);
+    padding: 30px 40px;
+    color: white;
+}
+
+footer .footer-top p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer .not-info-section{
+    color: white;
+    background-color: var(--darkGreen);
+    padding: 20px 40px 10px 40px;
+}
+
+footer section div {
+    margin-bottom: 20px;
+}
+
+footer section h2 {
+    margin-bottom:  5px;
+}
+
+footer section p {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+footer .copyright {
+    margin-bottom: 0px;
+    text-align: center;
+}
+footer .copyright-date {
+    color: grey;
+}
+
+footer .footer-img {
+    text-align: center;
+    padding-top: 2px;
+    background-color: var(--footerImgBackground);
+}
+
+@media screen and (min-width: 768px) {
+    footer .our-info-div h3 {
+        cursor: pointer
+    }
+    footer .our-info-div P {
+        max-width: 55%;
+    }
+}
+
+
+.footer-bee-img {
+    background-color: black !important;
+}
+
+.footer-bee-info {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.our-info-bees {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer-top-bees {
+    padding: 1em !important;
+    max-width: 100% !important;
+}

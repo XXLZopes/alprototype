@@ -1,0 +1,94 @@
+:root {
+    --transparentGreen: rgba(73, 136, 99, 0.7);
+    --lightGreen: #7ca390;
+    --darkGreen: #485f54;
+    --flagText: #000000;
+    --footerImgBackground: #ffffff;
+    --border: #485f54;
+    --headerBackgroundColor: #ffffff;
+    --flagDescriptionLarge: rgba(73, 136, 99, 0.7);
+    --sunMoonUpDown: -10px;
+    --upArrowColor: #000000;
+    --highlightColor: #aad2be;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: var(--highlightColor); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: var(--highlightColor); /* Gecko Browsers */
+  }
+
+.fa-angles-up {
+    position: fixed;
+    z-index: 9999;
+    right: 40px;
+    bottom: 10px;
+    font-size: 20px;
+    background-color: var(--transparentGreen);
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: .2s;
+    color: var(--upArrowColor);
+}
+
+h3 {
+    font-family: 'Athelas';
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Copperplate';
+    font-weight: 400;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Athelas';
+}
+
+.inline {
+    display: inline;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.background-img {
+    /* height: 700px; */
+    /* max-width: 100%; */
+    /* height: auto; */
+    position: absolute;
+    z-index: -1;
+}
+
+.flag {
+    color: var(--flagText);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .App {
+        /* margin: 0px 15vw; */
+        /* border-right: var(--border) solid 2px;
+        border-left: var(--border) solid 2px; */
+
+    }
+
+    .fa-angles-up {
+        bottom: 30px;
+        right: 7vw;
+        font-size: 20px;
+        padding: 3px 5px;
+    }
+    .fa-angles-up:hover {
+        color: white;
+    }
+}

@@ -1,0 +1,117 @@
+.bee-container {
+    /* background-image: url(../../../assets/images/bee/hc.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../../../assets/images/bee/hc.webp);
+    min-height: 100vh;
+    position: absolute;
+    background-size: 100%;
+}
+
+.honey-background {
+    height: 260px;
+    background-color: #f49c17;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.honey-background ul {
+    padding: 0;
+}
+
+.honey-background li {
+    line-height: 35px;
+    font-family: 'Athelas';
+    font-size: 25px;
+    list-style: none;
+    border-bottom: black 1px dashed;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.honey-background li:hover {
+    opacity: .5;
+}
+
+.bee-nav-closed {
+    margin-top: -260px;
+    transition: 500ms
+}
+.bee-nav-open {
+    margin-top: 0px;
+    transition: 500ms
+}
+
+
+.bee-header {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -4px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bee-header h2 {
+    font-size: 45px;
+    color:rgb(196, 160, 0);
+    line-height: 80px;
+}
+
+.bee-bars {
+    color:rgb(196, 160, 0);
+    font-size: 25px;
+}
+
+.bee-container section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.bee-container section img {
+    width: 80%;
+}
+
+.bee-container section h2 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .bee-header {
+        justify-content: center;
+        position: relative;
+    }
+    .bee-header h2 {
+        font-size: 50px;
+    }
+    .bee-bars {
+        position: absolute;
+        left: 10%;
+        cursor: pointer;
+        font-size: 40px;
+    }
+
+    .bee-container {
+        background-size: 100%;
+    }
+
+    .bee-container section {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .bee-container section img {
+        width: 70%;
+    }
+    
+}

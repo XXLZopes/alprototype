@@ -1,0 +1,28 @@
+.news-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news-con h2 {
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.news-con .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+
+.news-con .content-section iframe {
+    margin: 0px 40px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .news-con {
+        margin-bottom: 60px;
+    }
+}

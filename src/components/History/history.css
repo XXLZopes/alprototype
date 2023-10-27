@@ -1,0 +1,31 @@
+.history-con {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.history-con p{
+    margin: 30px 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .history-con {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: left;
+    }
+    .history-con img {
+        height: 90vh;
+        width: auto;
+    }
+    .history-con p {
+        font-size: 20px;
+        width: 750px;
+        line-height: 30px;
+        margin: 30px 0;
+        text-align: center;
+    }
+}

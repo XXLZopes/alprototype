@@ -1,0 +1,221 @@
+.poultry-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poultry-con img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poultry-con h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.whats-in-store-container {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.store-img-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+
+.whats-in-store-container img {
+    height: 360px;
+    /* margin-left: -50px; */
+    margin-bottom: 15px;
+}
+
+.description-container {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--transparentGreen);
+    bottom: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 15px;
+    transition: .4s
+}
+
+.store-text-container p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.llama-img {
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: -4px;
+    z-index: -1;
+}
+
+.our-info-section {
+    overflow: hidden;
+    position: relative; 
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/home/westernBackground.webp);
+    background-size: 100vw;
+
+}
+
+.our-info-div{
+    margin: 40px;
+    margin-top: 50px;
+}
+
+.our-info-div p {
+    color: white;
+    margin: 10px 0;
+}
+
+.our-info-div h3 {
+    color: var(--lightGreen);
+    font-style: italic;
+    width: fit-content;
+}
+
+/* .our-info-section .background-img {
+    filter: brightness(50%);
+} */
+
+.our-info-section .line {
+    margin: 0;
+    width: 60px;
+}
+
+.map {
+    height: 78.5vw;
+    width: 78.5vw;
+    border: none;
+    margin-top: 50px;
+
+}
+
+@media screen and (min-width: 768px) { 
+    .poultry-con img{
+        width: 51%;
+    
+    } 
+
+
+
+    .whats-in-store-container {
+        overflow: visible;
+        display: block;
+    }
+    .slogan-container h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .slogan-container p {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whats-in-store-container {
+        padding: 60px 0 60px 30px;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 100px;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-bottom: 2px solid var(--darkGreen);
+        border-top: 2px solid var(--darkGreen);
+        overflow: hidden;
+        height: fit-content;
+        /* background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../assets/images/backgrounds/wood.webp); */
+        /* background-size: 500px; */
+        
+    }
+
+    .whats-in-store-container img {
+        border-top: 2px solid var(--darkGreen);
+        border-bottom: 2px solid var(--darkGreen);
+        width: 35vw;
+        height: auto;
+
+    }
+    
+    .description-container {
+        /* padding: 20px; */
+        width: fit-content;
+        position: initial;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: none;
+    }
+    .description-container h2 {
+        font-size: 2vw;
+    }
+    .description-container:hover {
+        /* border: solid 3px var(--darkGreen); */
+        cursor: pointer;
+    }
+    
+    .store-text-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        /* margin-left: 60px; */
+    }
+    .store-text-container p {
+        width: fit-content;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        padding-right: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 2vw;
+    }
+    
+
+    .llama-img {
+        height: 250px;
+        width: auto;
+      }
+
+    .our-info-section {
+        background-size: 100%;
+        background-position: 0px -20vw;
+        padding: 30px; 
+    }
+
+    .map {
+        width: 400px;
+        height: 400px;
+        border: none;
+        margin-top: 50px;
+
+    }
+
+}
