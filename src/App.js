@@ -18,7 +18,7 @@ import Footer from "./components/Footer/Footer";
 
 library.add(fab, faBars, faX, faCircleHalfStroke, faSun, faMoon, faAnglesUp);
 
-export default function App() {
+function App() {
   const [isNavOpen, setNavState] = useState(false);
   const [currentPage, setCurrentPage] = useState("Home");
   const [currentDepartment, setCurrentDepartment] = useState();
@@ -129,4 +129,12 @@ export default function App() {
   );
 }
 
-// export default App;
+export default App;
+
+
+
+  // "devDependencies": {
+
+  //   "gh-pages": "^5.0.0"
+
+  // }
