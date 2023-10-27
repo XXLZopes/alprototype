@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/alprototype/static/css/main.07e3a3c8.css",
-    "main.js": "/alprototype/static/js/main.14c80316.js",
-    "static/js/787.a2cbe152.chunk.js": "/alprototype/static/js/787.a2cbe152.chunk.js",
+    "main.js": "/alprototype/static/js/main.a1e1a3b6.js",
     "static/media/hay.webp": "/alprototype/static/media/hay.669e983d82fbf83d4888.webp",
     "static/media/4.webp": "/alprototype/static/media/4.06c1e85c14b220142200.webp",
     "static/media/wood.webp": "/alprototype/static/media/wood.c6ef10bebf62a2a1fae6.webp",
@@ -55,11 +54,10 @@
     "static/media/sdark.webp": "/alprototype/static/media/sdark.6faa33e941f24ef5273b.webp",
     "index.html": "/alprototype/index.html",
     "main.07e3a3c8.css.map": "/alprototype/static/css/main.07e3a3c8.css.map",
-    "main.14c80316.js.map": "/alprototype/static/js/main.14c80316.js.map",
-    "787.a2cbe152.chunk.js.map": "/alprototype/static/js/787.a2cbe152.chunk.js.map"
+    "main.a1e1a3b6.js.map": "/alprototype/static/js/main.a1e1a3b6.js.map"
   },
   "entrypoints": [
     "static/css/main.07e3a3c8.css",
-    "static/js/main.14c80316.js"
+    "static/js/main.a1e1a3b6.js"
   ]
 }
